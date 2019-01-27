@@ -1,0 +1,10 @@
+.logo {
+    border: 1px solid black;
+}
+.year {
+    border: 1px solid black;
+}
+
+.body_grid > div {
+    border: 1px solid black;
+}
