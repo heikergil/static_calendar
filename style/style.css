@@ -1,10 +1,21 @@
-.logo {
-    border: 1px solid black;
+.heading_grid {
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
 }
-.year {
+.body_grid {
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+}
+.body_grid > div > div  {
     border: 1px solid black;
 }
 
-.body_grid > div {
+.logo {
     border: 1px solid black;
+    text-align: center;
+    
+}
+.year {
+    border: 1px solid black;
+    text-align: center;
 }
