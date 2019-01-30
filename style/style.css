@@ -2,12 +2,30 @@
     display: grid;
     grid-template-columns:repeat(2, 1fr);
 }
+.heading_grid > div {
+    height: 60px;
+}
 .body_grid {
     display: grid;
-    grid-template-columns:repeat(3, 1fr);
+    grid-template-columns: 100%;
+    grid-gap: 1em;
+    
 }
-.body_grid > div > div  {
-    border: 1px solid black;
+.body_grid > div {
+    display: grid;
+    grid-template-columns:1fr 1.25fr 1fr;
+    grid-auto-rows: 200px;
+    justify-items: stretch;
+    align-items: stretch;
+       
+}
+.body_grid > div > div:nth-child(even) {
+    border: black 1px solid;
+}
+.body_grid > div > div {
+    display: grid;
+    justify-content: center;
+    align-content: center;
 }
 
 .logo {
@@ -18,4 +36,23 @@
 .year {
     border: 1px solid black;
     text-align: center;
+}
+.row1 {
+    background-color:  red;
+    
+}
+.row2 {
+    background-color: blue;
+}
+.row3 {
+    background-color: yellow;
+}
+.row4 {
+    background: green;
+}
+.row5 {
+    background: brown;
+}
+.row6 {
+    background: pink;
 }
