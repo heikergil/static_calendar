@@ -1,6 +1,6 @@
 body {
     border: red 16px solid;
-    background-image: url("/images/background2.png");
+    background: lightblue url("/images/background2.png");
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
@@ -49,29 +49,13 @@ body {
     border: 1px solid black;
     text-align: center;
 }
-.row1 {
-    background-color:  red;
-    
-}
-.row2 {
-    background-color: blue;
-}
-.row3 {
-    background-color: yellow;
-}
-.row4 {
-    background: green;
-}
-.row5 {
-    background: brown;
-}
-.row6 {
-    background: pink;
-}
+
 
 .month {
     display: grid;
     grid-template-columns:1fr 7fr;
+    padding: 5px 10px 5px 15px;
+    border: black 1px solid;
 
 }
 .month > div:first-child {
@@ -79,8 +63,6 @@ body {
     color: white;
     writing-mode: vertical-rl;
     transform: rotate(180deg);
-    /*padding: 0;
-    margin: 0;*/
     font-size: 1.6em;
     text-align: center;
     font-family: "Arial", serif;
